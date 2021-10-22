@@ -62,7 +62,7 @@
 
                 li2.style.padding = "5px";
 
-                li2.appendChild(document.createTextNode("Please do not enter sensitive or confidential information such as credit card numbers, social security numbers, or medical history. In addition, we cannot provide any medical advice."));
+                li2.appendChild(document.createTextNode("No ingrese informacion confidencial en el chat"));
 
                     
 
