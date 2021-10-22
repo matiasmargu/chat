@@ -64,7 +64,7 @@
 	
 		li2.style.padding-bottom: 1px;
 
-                li2.appendChild(document.createTextNode("No ingrese informacion confidencial en el chat!!!!! https://www.google.com " && <a href="https://www.w3schools.com/">Visit W3Schools.com!</a>));
+                li2.appendChild(document.createTextNode("No ingrese informacion confidencial en el chat!!!!! https://www.google.com ");
 
                    
 
