@@ -62,7 +62,7 @@
 
                 li2.style.padding = "3px";
 
-                li2.appendChild(document.createTextNode("No ingrese informacion confidencial en el chat!!!!!"));
+                li2.appendChild(document.createTextNode("Por favor, no ingrese informacion confidencial en el chat!!!!! https://www.google.com "));
 
                     
 
