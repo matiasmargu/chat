@@ -58,7 +58,7 @@
 
                 li2.style.color = "white";
 
-                li2.style.backgroundColor  = "blue";
+                li2.style.backgroundColor  = "red";
 
                 li2.style.padding = "5px";
 
@@ -70,7 +70,7 @@
 
                 
 
-                sidebar.insertBefore(li2, sidebar.childNodes[1]);
+                sidebar.insertBefore(li2, sidebar.childNodes[3]);
 
             }
 
