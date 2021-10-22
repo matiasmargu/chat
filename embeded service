@@ -108,7 +108,7 @@
 
 		//};
 
-		embedded_svc.settings.prepopulatedPrechatFields = { Leer: "IMportanteee"}; //Establece el relleno automático de los campos del formulario previo al chat
+		embedded_svc.settings.prepopulatedPrechatFields = { Leer__c: "IMportanteee"}; //Establece el relleno automático de los campos del formulario previo al chat
 
 		//embedded_svc.settings.fallbackRouting = []; //Una matriz de identificadores de botones, de usuario o userId_buttonId
 
