@@ -61,16 +61,17 @@
                 li2.style.backgroundColor  = "red";
 
                 li2.style.padding = "2px";
+	
 
                 li2.appendChild(document.createTextNode("Por favor, no ingrese informacion confidencial en el chat!!!!! https://www.google.com "));
 
-                    
+                   
 
                 var sidebar = document.querySelector("div.formContent.embeddedServiceSidebarForm");
 
                 
 
-                sidebar.insertBefore(li2, sidebar.childNodes[2]);
+                sidebar.insertBefore(li2, sidebar.childNodes[3]);
 
             }
 
