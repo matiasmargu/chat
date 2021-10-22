@@ -40,45 +40,25 @@
 
 	var initESW = function(gslbBaseURL) {
 
-	       var show = false;
-
+        var show = false;
         
-
         embedded_svc.addEventHandler("afterMaximize", function(data) {
-
             console.log("afterMaximize event was fired.");
-
             
-
             if (!show) {
-
                 show = true;
-
                 var li2 = document.createElement("div");
-
                 li2.style.color = "white";
-
                 li2.style.backgroundColor  = "red";
-
-                li2.style.padding = "2px";
-	
-
-                li2.appendChild(document.createTextNode("No ingrese informacion confidencial en el chat!!!!! https://www.google.com ");
-
-                   
-
+                li2.style.padding = "5px";
+                li2.appendChild(document.createTextNode("Please do not enter sensitive or confidential information. In addition, we cannot provide any medical advice."));
+                    
                 var sidebar = document.querySelector("div.formContent.embeddedServiceSidebarForm");
-
                 
-
                 sidebar.insertBefore(li2, sidebar.childNodes[2]);
-
             }
-
             
-
         });    
-
         
 
 		embedded_svc.settings.displayHelpButton = true; //O falso
