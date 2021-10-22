@@ -71,7 +71,7 @@
 
                 
 
-                sidebar.insertBefore(li2, sidebar.childNodes[3]);
+                sidebar.insertBefore(li2, sidebar.childNodes[2]);
 
             }
 
