@@ -60,7 +60,7 @@
 
                 li2.style.backgroundColor  = "red";
 
-                li2.style.padding = "3px";
+                li2.style.padding = "1px";
 
                 li2.appendChild(document.createTextNode("Please do not enter sensitive or confidential information. In addition, we cannot provide any medical advice."));
 
@@ -70,7 +70,7 @@
 
                 
 
-                sidebar.insertBefore(li2, sidebar.childNodes[3]);
+                sidebar.insertBefore(li2, sidebar.childNodes[4]);
 
             }
 
