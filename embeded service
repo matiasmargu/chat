@@ -60,7 +60,7 @@
 
                 li2.style.backgroundColor  = "red";
 
-                li2.style.padding = "6px";
+                li2.style.padding = "3px";
 
                 li2.appendChild(document.createTextNode("No ingrese informacion confidencial en el chat!!!!!"));
 
